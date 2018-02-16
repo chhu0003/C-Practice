@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/Users/terryc/CLionProjects/C-Practice/Bugfix.cpp
+iostream
+-
+Bugfix.h
+/Users/terryc/CLionProjects/C-Practice/Bugfix.h
+
+/Users/terryc/CLionProjects/C-Practice/Bugfix.h
+Date.h
+/Users/terryc/CLionProjects/C-Practice/Date.h
+Bugreport.h
+/Users/terryc/CLionProjects/C-Practice/Bugreport.h
+
 /Users/terryc/CLionProjects/C-Practice/Bugreport.cpp
 iostream
 -
@@ -25,6 +37,12 @@ Date.h
 /Users/terryc/CLionProjects/C-Practice/Date.h
 
 /Users/terryc/CLionProjects/C-Practice/Date.h
+
+/Users/terryc/CLionProjects/C-Practice/Document.cpp
+Document.h
+/Users/terryc/CLionProjects/C-Practice/Document.h
+
+/Users/terryc/CLionProjects/C-Practice/Document.h
 
 /Users/terryc/CLionProjects/C-Practice/ExternalBugreport.cpp
 iostream
@@ -47,6 +65,8 @@ Time.h
 /Users/terryc/CLionProjects/C-Practice/Time.h
 Date.h
 /Users/terryc/CLionProjects/C-Practice/Date.h
+Document.h
+/Users/terryc/CLionProjects/C-Practice/Document.h
 
 /Users/terryc/CLionProjects/C-Practice/Time.cpp
 Time.h
@@ -73,4 +93,6 @@ Bugreport.h
 /Users/terryc/CLionProjects/C-Practice/Bugreport.h
 ExternalBugreport.h
 /Users/terryc/CLionProjects/C-Practice/ExternalBugreport.h
+Bugfix.h
+/Users/terryc/CLionProjects/C-Practice/Bugfix.h
 

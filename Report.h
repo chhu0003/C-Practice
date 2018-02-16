@@ -7,10 +7,11 @@
 
 #include "Time.h"
 #include "Date.h"
+#include "Document.h"
 
 #define MAX_CHAR_SIZE 200
 
-class Report {
+class Report: public Document {
 public:
     Report(void);
     ~Report(void);

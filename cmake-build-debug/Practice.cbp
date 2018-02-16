@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/terryc/CLionProjects/C-Practice/Bugfix.cpp">
+			<Option target="Practice"/>
+		</Unit>
+		<Unit filename="/Users/terryc/CLionProjects/C-Practice/Bugfix.h">
+			<Option target="Practice"/>
+		</Unit>
 		<Unit filename="/Users/terryc/CLionProjects/C-Practice/Bugreport.cpp">
 			<Option target="Practice"/>
 		</Unit>
@@ -90,6 +96,12 @@
 			<Option target="Practice"/>
 		</Unit>
 		<Unit filename="/Users/terryc/CLionProjects/C-Practice/Date.h">
+			<Option target="Practice"/>
+		</Unit>
+		<Unit filename="/Users/terryc/CLionProjects/C-Practice/Document.cpp">
+			<Option target="Practice"/>
+		</Unit>
+		<Unit filename="/Users/terryc/CLionProjects/C-Practice/Document.h">
 			<Option target="Practice"/>
 		</Unit>
 		<Unit filename="/Users/terryc/CLionProjects/C-Practice/ExternalBugreport.cpp">

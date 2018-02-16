@@ -123,6 +123,33 @@ Practice/fast:
 	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/build
 .PHONY : Practice/fast
 
+Bugfix.o: Bugfix.cpp.o
+
+.PHONY : Bugfix.o
+
+# target to build an object file
+Bugfix.cpp.o:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Bugfix.cpp.o
+.PHONY : Bugfix.cpp.o
+
+Bugfix.i: Bugfix.cpp.i
+
+.PHONY : Bugfix.i
+
+# target to preprocess a source file
+Bugfix.cpp.i:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Bugfix.cpp.i
+.PHONY : Bugfix.cpp.i
+
+Bugfix.s: Bugfix.cpp.s
+
+.PHONY : Bugfix.s
+
+# target to generate assembly for a file
+Bugfix.cpp.s:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Bugfix.cpp.s
+.PHONY : Bugfix.cpp.s
+
 Bugreport.o: Bugreport.cpp.o
 
 .PHONY : Bugreport.o
@@ -176,6 +203,33 @@ Date.s: Date.cpp.s
 Date.cpp.s:
 	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Date.cpp.s
 .PHONY : Date.cpp.s
+
+Document.o: Document.cpp.o
+
+.PHONY : Document.o
+
+# target to build an object file
+Document.cpp.o:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Document.cpp.o
+.PHONY : Document.cpp.o
+
+Document.i: Document.cpp.i
+
+.PHONY : Document.i
+
+# target to preprocess a source file
+Document.cpp.i:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Document.cpp.i
+.PHONY : Document.cpp.i
+
+Document.s: Document.cpp.s
+
+.PHONY : Document.s
+
+# target to generate assembly for a file
+Document.cpp.s:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Document.cpp.s
+.PHONY : Document.cpp.s
 
 ExternalBugreport.o: ExternalBugreport.cpp.o
 
@@ -294,12 +348,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Practice"
+	@echo "... Bugfix.o"
+	@echo "... Bugfix.i"
+	@echo "... Bugfix.s"
 	@echo "... Bugreport.o"
 	@echo "... Bugreport.i"
 	@echo "... Bugreport.s"
 	@echo "... Date.o"
 	@echo "... Date.i"
 	@echo "... Date.s"
+	@echo "... Document.o"
+	@echo "... Document.i"
+	@echo "... Document.s"
 	@echo "... ExternalBugreport.o"
 	@echo "... ExternalBugreport.i"
 	@echo "... ExternalBugreport.s"

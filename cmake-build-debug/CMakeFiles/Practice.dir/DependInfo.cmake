@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/terryc/CLionProjects/C-Practice/Bugfix.cpp" "/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles/Practice.dir/Bugfix.cpp.o"
   "/Users/terryc/CLionProjects/C-Practice/Bugreport.cpp" "/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles/Practice.dir/Bugreport.cpp.o"
   "/Users/terryc/CLionProjects/C-Practice/Date.cpp" "/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles/Practice.dir/Date.cpp.o"
+  "/Users/terryc/CLionProjects/C-Practice/Document.cpp" "/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles/Practice.dir/Document.cpp.o"
   "/Users/terryc/CLionProjects/C-Practice/ExternalBugreport.cpp" "/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles/Practice.dir/ExternalBugreport.cpp.o"
   "/Users/terryc/CLionProjects/C-Practice/Report.cpp" "/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles/Practice.dir/Report.cpp.o"
   "/Users/terryc/CLionProjects/C-Practice/Time.cpp" "/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles/Practice.dir/Time.cpp.o"

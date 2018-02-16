@@ -201,6 +201,54 @@ CMakeFiles/Practice.dir/ExternalBugreport.cpp.o.provides: CMakeFiles/Practice.di
 CMakeFiles/Practice.dir/ExternalBugreport.cpp.o.provides.build: CMakeFiles/Practice.dir/ExternalBugreport.cpp.o
 
 
+CMakeFiles/Practice.dir/Bugfix.cpp.o: CMakeFiles/Practice.dir/flags.make
+CMakeFiles/Practice.dir/Bugfix.cpp.o: ../Bugfix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Practice.dir/Bugfix.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/Bugfix.cpp.o -c /Users/terryc/CLionProjects/C-Practice/Bugfix.cpp
+
+CMakeFiles/Practice.dir/Bugfix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/Bugfix.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/terryc/CLionProjects/C-Practice/Bugfix.cpp > CMakeFiles/Practice.dir/Bugfix.cpp.i
+
+CMakeFiles/Practice.dir/Bugfix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/Bugfix.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/terryc/CLionProjects/C-Practice/Bugfix.cpp -o CMakeFiles/Practice.dir/Bugfix.cpp.s
+
+CMakeFiles/Practice.dir/Bugfix.cpp.o.requires:
+
+.PHONY : CMakeFiles/Practice.dir/Bugfix.cpp.o.requires
+
+CMakeFiles/Practice.dir/Bugfix.cpp.o.provides: CMakeFiles/Practice.dir/Bugfix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Bugfix.cpp.o.provides.build
+.PHONY : CMakeFiles/Practice.dir/Bugfix.cpp.o.provides
+
+CMakeFiles/Practice.dir/Bugfix.cpp.o.provides.build: CMakeFiles/Practice.dir/Bugfix.cpp.o
+
+
+CMakeFiles/Practice.dir/Document.cpp.o: CMakeFiles/Practice.dir/flags.make
+CMakeFiles/Practice.dir/Document.cpp.o: ../Document.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Practice.dir/Document.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/Document.cpp.o -c /Users/terryc/CLionProjects/C-Practice/Document.cpp
+
+CMakeFiles/Practice.dir/Document.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/Document.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/terryc/CLionProjects/C-Practice/Document.cpp > CMakeFiles/Practice.dir/Document.cpp.i
+
+CMakeFiles/Practice.dir/Document.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/Document.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/terryc/CLionProjects/C-Practice/Document.cpp -o CMakeFiles/Practice.dir/Document.cpp.s
+
+CMakeFiles/Practice.dir/Document.cpp.o.requires:
+
+.PHONY : CMakeFiles/Practice.dir/Document.cpp.o.requires
+
+CMakeFiles/Practice.dir/Document.cpp.o.provides: CMakeFiles/Practice.dir/Document.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/Document.cpp.o.provides.build
+.PHONY : CMakeFiles/Practice.dir/Document.cpp.o.provides
+
+CMakeFiles/Practice.dir/Document.cpp.o.provides.build: CMakeFiles/Practice.dir/Document.cpp.o
+
+
 # Object files for target Practice
 Practice_OBJECTS = \
 "CMakeFiles/Practice.dir/main.cpp.o" \
@@ -208,7 +256,9 @@ Practice_OBJECTS = \
 "CMakeFiles/Practice.dir/Time.cpp.o" \
 "CMakeFiles/Practice.dir/Report.cpp.o" \
 "CMakeFiles/Practice.dir/Bugreport.cpp.o" \
-"CMakeFiles/Practice.dir/ExternalBugreport.cpp.o"
+"CMakeFiles/Practice.dir/ExternalBugreport.cpp.o" \
+"CMakeFiles/Practice.dir/Bugfix.cpp.o" \
+"CMakeFiles/Practice.dir/Document.cpp.o"
 
 # External object files for target Practice
 Practice_EXTERNAL_OBJECTS =
@@ -219,9 +269,11 @@ Practice: CMakeFiles/Practice.dir/Time.cpp.o
 Practice: CMakeFiles/Practice.dir/Report.cpp.o
 Practice: CMakeFiles/Practice.dir/Bugreport.cpp.o
 Practice: CMakeFiles/Practice.dir/ExternalBugreport.cpp.o
+Practice: CMakeFiles/Practice.dir/Bugfix.cpp.o
+Practice: CMakeFiles/Practice.dir/Document.cpp.o
 Practice: CMakeFiles/Practice.dir/build.make
 Practice: CMakeFiles/Practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/terryc/CLionProjects/C-Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Practice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Practice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,6 +287,8 @@ CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/Time.cpp.o.requires
 CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/Report.cpp.o.requires
 CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/Bugreport.cpp.o.requires
 CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/ExternalBugreport.cpp.o.requires
+CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/Bugfix.cpp.o.requires
+CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/Document.cpp.o.requires
 
 .PHONY : CMakeFiles/Practice.dir/requires
 

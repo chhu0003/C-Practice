@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Practice.dir/Report.cpp.o"
   "CMakeFiles/Practice.dir/Bugreport.cpp.o"
   "CMakeFiles/Practice.dir/ExternalBugreport.cpp.o"
+  "CMakeFiles/Practice.dir/Bugfix.cpp.o"
+  "CMakeFiles/Practice.dir/Document.cpp.o"
   "Practice.pdb"
   "Practice"
 )

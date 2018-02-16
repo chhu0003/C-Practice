@@ -7,13 +7,14 @@ using namespace std;
 #include "Report.h"
 #include "Bugreport.h"
 #include "ExternalBugreport.h"
+#include "Bugfix.h"
 
-void show_rep(Report *rpt);
+void show_rep(Document *doc);
 
-void show_rep(Report *rpt)
+void show_rep(Document *doc)
 {
     cout << "********************" << endl;
-    rpt->display();
+    doc->display();
     cout << "********************" << endl;
 }
 
@@ -44,13 +45,17 @@ int main() {
     ExternalBugreport ebr(today, t, "The OS I'm running is broken.", 2, 1,
                           "Somebody, Inc.", "Something '95", ExternalBugreport::STATUS_LOGGED);
     //ebr.display();
+    Date fix(10, 19, 1998);
+    Bugfix fixed_bug(fix, "Paul programmer", &bug_a);
 
-    Report *rpt[3];
-    rpt[0] = &bug_a;
-    rpt[1] = &status;
-    rpt[2] = &ebr;
-    for (int i = 0; i < 3; i++)
-        show_rep(rpt[i]);
+
+    Document *doc[4];
+    doc[0] = &bug_a;
+    doc[1] = &status;
+    doc[2] = &ebr;
+    doc[3] = &fixed_bug;
+    for (int i = 0; i < 4; i++)
+        show_rep(doc[i]);
 
 
     return 0;
