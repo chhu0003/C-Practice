@@ -24,7 +24,7 @@ Bugfix::Bugfix(Date d, char *auth, Bugreport *tb): fix_date(d),
     strcpy(author, auth);
 }
 
-void Bugfix::display(void) {
+void Bugfix::display(void) const{
     cout<< "Bug ";
     thebug -> disp_id();
     cout << "Bug fixed: ";

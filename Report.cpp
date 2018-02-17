@@ -30,7 +30,7 @@ Report::Report(Date d, Time t, char *desc) : rep_date(d), rep_time(t)
     strcpy(rep_desc, desc);
 }
 
-void Report::display(void)
+void Report::display(void) const
 {
     cout << "Report size: " << sizeof(Report) << endl;
     cout << "Date: ";
@@ -41,7 +41,7 @@ void Report::display(void)
     display_desc();
 }
 
-void Report::display_desc(void)
+void Report::display_desc(void) const
 {
     cout << rep_desc << endl;
 }

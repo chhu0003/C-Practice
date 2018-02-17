@@ -8,7 +8,7 @@ using namespace std;
 #include "Bugreport.h"
 #include "ExternalBugreport.h"
 #include "Bugfix.h"
-
+#include <list>
 void show_rep(Document *doc);
 
 void show_rep(Document *doc)
@@ -56,6 +56,14 @@ int main() {
     doc[3] = &fixed_bug;
     for (int i = 0; i < 4; i++)
         show_rep(doc[i]);
+
+    list<int> a;
+    int i = 0;
+    for( i = 0; i<5; ++i)a.push_back(i);
+    cout<<a.size()<<endl;
+
+    for(list<int>::iterator p = a.begin(); p!=a.end(); p++) cout<<*p<<endl;
+
 
 
     return 0;

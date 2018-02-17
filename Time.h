@@ -12,7 +12,8 @@ public:
     Time(const Time& t);
 
     void set(int h, int m);
-    void display(void);
+    void display(void) const;
+
 private:
     int hour;
     int minute;

@@ -36,7 +36,7 @@ void Time::set(int h, int m)
     minute = m;
 }
 
-void Time::display(void)
+void Time::display() const
 {
     char c = cout.fill('0');
     cout << setw(2) << hour << ':';

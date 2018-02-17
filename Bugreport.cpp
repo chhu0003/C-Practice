@@ -29,14 +29,14 @@ Bugreport::Bugreport(Date d, Time t, char *desc, int id, int sev) :
     cout << "Bugreport: date time char * int int ctor" << endl;
 }
 
-void Bugreport::display(void)
+void Bugreport::display(void) const
 {
     disp_id();
     cout << "Severity: " << severity << endl;
     Report::display();
 }
 
-void Bugreport::disp_id(void)
+void Bugreport::disp_id(void) const
 {
     cout << "ID: " << bug_id << endl;
 }

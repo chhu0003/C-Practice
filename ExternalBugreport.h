@@ -27,8 +27,8 @@ public:
     ExternalBugreport(Date d, Time t, char *desc, int id, int sev,
                       char *thecompany, char *theproduct, status thestatus);
 
-    void display(void);
-    void disp_status(void);
+    virtual void display(void) const;
+    void disp_status(void) const;
 
     void setStatus(status newstatus);
 

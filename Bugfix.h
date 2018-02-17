@@ -7,7 +7,7 @@
 
 #include "Date.h"
 #include "Bugreport.h"
-#define MAX_NAME_SIZE 100
+const int MAX_NAME_SIZE = 100;
 
 class Bugfix: public Document  {
 private:
@@ -20,6 +20,6 @@ public:
     Bugfix(const Bugfix &bf); //copy ctor
     Bugfix(Date d, char *auth, Bugreport *tb);
 
-    virtual void display(void);
+    virtual void display(void) const;
 };
 #endif //PRACTICE_BUGFIX_H

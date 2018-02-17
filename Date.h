@@ -13,7 +13,7 @@ public:
     Date(int m, int d, int y);
 
     void set(int m, int d, int y);
-    void display(void);
+    void display(void) const ;
     void increment(void);
     void decrement(void);
 private:

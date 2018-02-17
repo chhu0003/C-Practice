@@ -4,6 +4,6 @@
 
 #include "Document.h"
 
-void Document::display(void) {
+void Document::display(void) const{
 
 }

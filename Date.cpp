@@ -36,7 +36,7 @@ void Date::set(int m, int d, int y)
     year = y;
 }
 
-void Date::display(void)
+void Date::display(void) const
 {
     cout << month << '/';
     cout << day << '/';

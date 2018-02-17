@@ -38,7 +38,7 @@ ExternalBugreport::ExternalBugreport(Date d, Time t, char *desc, int id,
     strcpy(product, theproduct);
 }
 
-void ExternalBugreport::display(void)
+void ExternalBugreport::display(void) const
 {
     cout << "Company: " << company << endl;
     cout << "Product: " << product << endl;
@@ -47,7 +47,7 @@ void ExternalBugreport::display(void)
     Bugreport::display();
 }
 
-void ExternalBugreport::disp_status(void)
+void ExternalBugreport::disp_status(void) const
 {
     switch (stat) {
         case STATUS_LOGGED:

@@ -9,7 +9,7 @@
 #include "Date.h"
 #include "Document.h"
 
-#define MAX_CHAR_SIZE 200
+const int MAX_CHAR_SIZE=200;
 
 class Report: public Document {
 public:
@@ -18,8 +18,8 @@ public:
     Report(const Report& r);
     Report(Date d, Time t, char *desc);
 
-    virtual void display(void);
-    void display_desc(void);
+    virtual void display(void) const;
+    void display_desc(void) const;
 private:
     Date rep_date;
     Time rep_time;

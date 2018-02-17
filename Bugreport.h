@@ -13,8 +13,8 @@ public:
     Bugreport(const Bugreport& br);
     Bugreport(Date d, Time t, char *desc, int id, int sev);
 
-    void display(void);
-    void disp_id(void);
+    virtual void display(void) const;
+    void disp_id(void) const;
 private:
     int bug_id;
     int severity;
